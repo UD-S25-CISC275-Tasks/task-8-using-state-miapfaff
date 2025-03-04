@@ -6,7 +6,7 @@ export function RevealAnswer(): React.JSX.Element {
 
     const toggleVisibility = () => {
         setIsVisible((prev) => !prev);
-    };
+    }; // temp change for commit
 
     return (
         <div>
