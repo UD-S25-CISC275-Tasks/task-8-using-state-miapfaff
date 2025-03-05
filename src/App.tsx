@@ -4,7 +4,7 @@ import { ChangeType } from "./components/ChangeType";
 import { RevealAnswer } from "./components/RevealAnswer";
  import { StartAttempt } from "./components/StartAttempt";
  import { TwoDice } from "./components/TwoDice";
-// import { CycleHoliday } from "./components/CycleHoliday";
+ import { CycleHoliday } from "./components/CycleHoliday";
 import { Counter } from "./components/Counter";
 
 function App(): JSX.Element {
@@ -16,17 +16,15 @@ function App(): JSX.Element {
             <hr />
             <Counter />
             <hr />
-
-            {/* Correct JSX Commenting */}
             <RevealAnswer />
             <hr />
             { <StartAttempt /> }
-            {/* <hr /> */}
+            { <hr /> }
             { <TwoDice /> }
-            {/* <hr /> */}
+            { <hr /> }
             { <ChangeType /> }
-            {/* <hr /> */}
-            {/* <CycleHoliday /> */}
+            { <hr /> }
+            { <CycleHoliday /> }
         </div>
     );
 }
