@@ -25,15 +25,15 @@ export function StartAttempt(): React.JSX.Element {
     return (
         <div>
             <p>Attempts Remaining: {attempts}</p>
-            <button onClick={startQuiz} disabled={inProgress || attempts === 0}>
+            <Button onClick={startQuiz} disabled={inProgress || attempts === 0}>
                 Start Quiz
-            </button>
-            <button onClick={stopQuiz} disabled={!inProgress}>
+            </Button>
+            <Button onClick={stopQuiz} disabled={!inProgress}>
                 Stop Quiz
-            </button>
-            <button onClick={addAttempt} disabled={inProgress}>
+            </Button>
+            <Button onClick={addAttempt} disabled={inProgress}>
                 Mulligan
-            </button>
+            </Button>
         </div>
     );
 }
